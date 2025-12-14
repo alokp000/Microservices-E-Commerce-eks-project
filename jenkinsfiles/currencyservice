@@ -42,8 +42,8 @@ pipeline {
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "Microservices-E-Commerce-eks-project"
-                GIT_EMAIL = "Yaswanth.arumulla@gmail.com"
-                GIT_USER_NAME = "arumullayaswanth"
+                GIT_EMAIL = "pandaalok000@gmail.com"
+                GIT_USER_NAME = "alokp000"
                 IMAGE_NAME = "currencyservice"
                 REPO_URL = "010526287002.dkr.ecr.us-east-1.amazonaws.com/currencyservice"
                 YAML_FILE = "currencyservice.yaml"
